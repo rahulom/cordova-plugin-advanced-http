@@ -442,7 +442,7 @@
 }
 
 - (void)delete:(CDVInvokedUrlCommand*)command {
-    [self executeRequestWithoutData: command withMethod:@"DELETE"];
+    [self executeRequestWithData: command withMethod:@"DELETE"];
 }
 
 - (void)head:(CDVInvokedUrlCommand*)command {
